@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+/* MY STYLES */
+.container {
+  max-width: 940px;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.navbar {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 33px;
+  line-height: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-brand:hover {
+  color: #bf3a30 !important;
+}
+
+/* CARD STYLES */
+.cardTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #333;
+}
+
+.cardLink {
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+}
+
+/* ICONS FONTS */
+footer a {
+  font-size: 20px;
+  color: #000;
+  margin: 0 5px;
+  transition: opacity 300ms ease;
+}
+
+footer a:hover {
+  color: #000;
+  opacity: 0.3;
+}
